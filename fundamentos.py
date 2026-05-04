@@ -47,11 +47,11 @@ else:
 #input
 
 nombre_usuario = input("Ingrese su nombre: ")
-print(nombre_usuario)
+print (nombre_usuario)
 
 edad_usuario = int(input("Ingrese su edad: "))
-print(edad_usuario)
+print (edad_usuario)
+
+print (f"Hola {nombre_usuario}, tu edad es {edad_usuario} años")
 
 
-
-print(f"Hola {nombre_usuario}, tu edad es {edad_usuario} años")

@@ -1,18 +1,3 @@
-#operadores aritmeticos
-a = 10
-b = 5
-
-suma = a + b
-resta = a - b
-multiplicacion = a * b
-division = a / b
-modulo = a % b
-division_entera = a // b
-potencia = a ** b
-
-
-print(f"Suma: {suma}")
-
 #CALCULADORA 
 
 num1 = float(input("Ingrese el primer número: "))
@@ -41,5 +26,4 @@ elif tipo_operacion == "division_entera":
     print(f"El resultado de la división entera es: {division_entera}")
 elif tipo_operacion == "potencia":
     print(f"El resultado de la potencia es: {potencia}")
-
 
