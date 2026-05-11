@@ -16,6 +16,23 @@ variable_2_string = input("ingresa otra cadena de texto: ")
 suma_numeros = variable_1_entera + variable_2_entera + variable_float
 print(f"la suma de los numeros es: {suma_numeros}")
 
+#Mostrar entero mayor
+if variable_1_entera > variable_2_entera:
+    print(f"el numero entero mayor es: {variable_1_entera}")    
+elif variable_2_entera > variable_1_entera:
+    print(f"el numero entero mayor es: {variable_2_entera}")
+
+#division del float con el resto de la division de los enteros
+division_1 =  variable_1_entera % variable_2_entera
+division_2 = division_1 / variable_float
+
+print(f"el resultado de la division es: {division_2}")
+
+#concatenar de las dos caenas leidas
+concatenacion = variable_1_string + " " + variable_2_string
+print(f"la concatenacion de las cadenas es: {concatenacion}")
+
+
 #ejercicio 3
 
 base = 5
