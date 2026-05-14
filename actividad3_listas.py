@@ -36,5 +36,7 @@ print(canciones)
 ¿En qué posición está la primera canción que agregaste? ¿Cuántas veces aparece
 el string 'Bonus Track 1'?"""
 
-
+#la playlist tiene 7 canciones
+#la primera cancion que agregue esta en la posicion 2
+#Aparece dos veces en las diferentes listas
 
